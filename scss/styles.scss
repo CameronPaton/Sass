@@ -1,39 +1,6 @@
-//Variables
-/*
-
-Variables start with a dollar sign
-
-*/
-$deepBlue: #032f3e;
-$offWhite: #f8f9fb;
-$sectionHeading: 24px;
-$bannerHeading: 46px;
-
-//mixins
-
-@mixin banner{
-  width: 100%;
-  position: relative;
-  color: white;
-  .banner-content{
-    position: absolute;
-    top: 250px;
-    width: 100%;
-  }
-  img{
-    width: 100%;
-  }
-  span{
-    font-size: $bannerHeading;
-    display: block;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  span.title{
-    font-weight: normal;
-    margin-bottom: 30px;
-  }
-}
+@import "reset";
+@import "Variables";
+@import "mixins";
 
 #main-nav{
   background: $deepBlue;
@@ -73,6 +40,7 @@ section h1{
   @include banner;
   text-align: right;
 }
+
 //apply to banner 2
 
 .lessons-banner{
