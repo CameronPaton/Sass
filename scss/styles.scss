@@ -19,7 +19,11 @@
     padding: 16px;
     display: block;
     text-align: center;
+    &:hover{
+      background: #333;
+    }
   }
+
 }
 
 //end of main nav
