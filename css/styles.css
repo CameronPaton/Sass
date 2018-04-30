@@ -112,4 +112,14 @@ section h1 {
     display: block;
     clear: both; }
 
+#projects li {
+  float: left;
+  margin-right: 8%;
+  margin-left: 8%;
+  width: 46%; }
+  #projects li:nth-child(2n) {
+    margin-right: 0; }
+  #projects li img {
+    width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */
